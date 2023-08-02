@@ -25,8 +25,8 @@ def maybe_change_keys(sd):
 
 if __name__ == "__main__":
     config_name = 'cifar50_resnet20'
-    checkpoint_dir = './checkpoints/cifar50/gitrebasins/logits'
-    model_dir = './cifar50/pairs'
+    checkpoint_dir = './checkpoints/cifar50_logits/resnet20x16'
+    model_dir = './checkpoints/cifar50_logits/resnet20x16/pairsplits'
     
     SEED = 0
     set_seed(SEED)   

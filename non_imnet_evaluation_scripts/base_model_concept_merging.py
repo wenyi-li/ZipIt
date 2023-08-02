@@ -35,7 +35,7 @@ def evaluate_pair_models(eval_type, models, config, csv_file):
 
 if __name__ == "__main__":
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    config_name = 'cifar5_resnet20'
+    config_name = 'cifar50_resnet20'
     skip_pair_idxs = [0]
     
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
